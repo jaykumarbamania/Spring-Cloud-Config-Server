@@ -1,0 +1,10 @@
+#server:
+#  port: 8888
+#spring:
+#  application:#    name: spring-cloud-config-server
+#  jmx:#    default-domain: cloud.config.server
+#  cloud:#    config:#      server:#        git:#          uri: https://github.com/jaykumarbamania/Spring-Cloud-Config-Server
+#          force-pull: true
+#          delete-untracked-branches: true
+#  profiles:#    active: native
+#management:#  endpoint:#    env:#      post:#        enabled: true           
